@@ -8,7 +8,7 @@ export default function About() {
     <>
       <div className="text-white text-center mt-16">
         <div className="xl:flex xl:items-center xl:gap-[30em] xl:mt-[9em]">
-          <h1 className="text-3xl w-[8.3em] m-auto xl:text-4xl loadIn  greenBarXL whitespace-nowrap ">
+          <h1 className="text-3xl text-center w-[8.3em] m-auto xl:text-4xl loadIn  greenBarXL whitespace-nowrap hidden xl:block">
             Sebastian Wilden
           </h1>
           {/* <div className="h-[10px] bg-green-500 w-[15.1em] m-auto greenBar xl:hidden" /> */}
