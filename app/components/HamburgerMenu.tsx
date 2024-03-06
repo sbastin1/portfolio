@@ -40,7 +40,7 @@ export default function HamburgerMenu() {
 
   return (
     <>
-      <div className="flex justify-between items-center max-w-[30em] m-auto mt-[3em] xl:hidden">
+      <div className="flex justify-evenly items-center max-w-[30em] m-auto mt-[3em] xl:hidden">
         <h1 className="text-white greenBarXL text-3xl">Sebastian Wilden</h1>
         <Image
           src={hamburger}
