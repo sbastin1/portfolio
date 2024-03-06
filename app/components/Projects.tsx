@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import shortener from "../assets/shortener.png";
-
 import html from "../assets/technologies/html.svg";
 import css from "../assets/technologies/css.svg";
 import typescript from "../assets/technologies/typescript.svg";

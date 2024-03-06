@@ -45,7 +45,7 @@ export default function HamburgerMenu() {
         alt=""
         width={75}
         height={75}
-        className={`mt-[3.2em]  transition-all rounded-3xl ml-auto xl:hidden  absolute right-0 top-0 mr-[4.5em]
+        className={`mt-[3.2em]  transition-all rounded-3xl  ml-auto xl:hidden right-0 top-0 mr-[4.5em]
         ${isOpen ? "hidden" : ""}`}
         style={isBackgroundColor}
         onMouseDown={handleMouseDown}

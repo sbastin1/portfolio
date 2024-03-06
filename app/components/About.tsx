@@ -12,7 +12,7 @@ export default function About() {
             Sebastian Wilden
           </h1>
           {/* <div className="h-[10px] bg-green-500 w-[15.1em] m-auto greenBar xl:hidden" /> */}
-          <div className="flex flex-col gap-10 mt-36 loadIn w-[30em] m-auto xl:mt-0 xl:w-[26em] xl:text-xl">
+          <div className="flex flex-col gap-10 mt-36 max-w-[30em] loadIn m-auto xl:mt-0 xl:w-[26em] xl:text-xl">
             <p>
               Hey! I’m Sebastian, born and raised in Germany. At the age of 8
               years I got my first computer and the journey began. I did

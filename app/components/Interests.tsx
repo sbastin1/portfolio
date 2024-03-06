@@ -49,7 +49,7 @@ export default function Interests() {
           {interests.map((interest) => (
             <li
               key={interest.id}
-              className="text-white flex justify-left items-center gap-4 mb-6 w-[32.3em] m-auto"
+              className="text-white flex justify-left items-center gap-4 mb-6 max-w-[32.3em] m-auto"
             >
               <Image
                 src={interest.logo}
