@@ -1,0 +1,17 @@
+:root {
+  --link-underline-padding: 0.5em;
+}
+
+.tasse {
+  background: linear-gradient(currentColor 0 0) bottom left/
+    var(--underline-width, 0%) 0.1em no-repeat;
+  color: rgb(255, 255, 255);
+
+  padding: 0 0.5em 0.2em;
+  text-decoration: none;
+  transition: background-size 0.5s;
+}
+
+.tasse:hover {
+  --underline-width: 100%;
+}
